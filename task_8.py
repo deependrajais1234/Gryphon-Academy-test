@@ -1,0 +1,12 @@
+students = ["Rahul", "Priya", "Amit", "Sneha", "Rohan"]
+print(students)
+students.append("Neha")
+students.insert(2, "Ankit")
+print(students)
+students.remove("Amit")
+students.pop(3)
+print(students)
+students.sort()
+students.reverse()
+print(students)
+print(students[:3])
